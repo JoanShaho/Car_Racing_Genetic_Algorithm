@@ -1,3 +1,7 @@
+/*
+ * Code for this class was taken by the SnakeAI GitHub repository of the user greerviau
+*/
+
 class NeuralNet {
   
   int iNodes, hNodes, oNodes, hLayers;
