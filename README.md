@@ -6,7 +6,7 @@ This is an implementation of the Genetic Algorithm along with Neural Networks us
     - The car consists of 8 lines (2 for each side). This was done to allow easier collision detection system since if the track intersects       any of those lines, the car has collided with the track. Additionall, a green rectangle is used to make the cars more visible.
     - There are 5 directional lines (2 left, 2 right, and 1 straight) through which the car "sees". The intersection of each of those lines       with the track are the car's vision.
 
-- **RaceTrack **
+- **RaceTrack**
     - The track where the cars are moving is modeled using a set of outer and inner lines which are all hardcoded. The reason for that was       to allow the user to create any track they want
 
 - **Neural Network inputs and outputs**
