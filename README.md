@@ -13,11 +13,11 @@ This is an implementation of the Genetic Algorithm along with Neural Networks us
     - The inputs of the neural network are the intersection points between the track and the five directional lines of the car. The outputs       are two: the first one determines the direction the car should turn and the second the angle.
     
 - **Issues**
-  1. Once the cars learn how to turn right at the first turn, it's difficult to make them learn to turn left, since they have learned that      turning left is the best option. The main reason for that is the lack of a large enough generation size (there are only 20 cars per        generation).
-  2. Having more than 20 cars at once causes crashing and efficiency issues with the program.
+  - Once the cars learn how to turn right at the first turn, it's difficult to make them learn to turn left, since they have learned that       turning left is the best option. The main reason for that is the lack of a large enough generation size (there are only 20 cars per         generation).
+  - Having more than 20 cars at once causes crashing and efficiency issues with the program.
   
 - **Possible Solutions/Future changes**
-  1. Try more complicated tracks.
-  2. Add the number of directional lines for the cars.
-  3. Try more complex Neural Networks
-  3. Make the program less computationally expensive, thus allowing larger generations.
+  - Try more complicated tracks.
+  - Add the number of directional lines for the cars.
+  - Try more complex Neural Networks
+  - Make the program less computationally expensive, thus allowing larger generations.
